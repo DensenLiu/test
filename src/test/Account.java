@@ -4,11 +4,21 @@ import java.util.Date;
 
 public class Account {
 
+	private String name;
 	private String bussNum;
 	private Date bussDate;
 	public String getBussNum() {
 		return bussNum;
 	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public void setBussNum(String bussNum) {
 		this.bussNum = bussNum;
 	}
