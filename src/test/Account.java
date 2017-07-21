@@ -28,15 +28,20 @@ public class Account {
 	public void setBussDate(Date bussDate) {
 		this.bussDate = bussDate;
 	}
+
 	@Override
 	public String toString() {
-		return "Account [bussNum=" + bussNum + ", bussDate=" + bussDate + "]";
+		return "Account [name=" + name + ", bussNum=" + bussNum + ", bussDate="
+				+ bussDate + "]";
 	}
-	public Account(String bussNum, Date bussDate) {
+
+	public Account(String name, String bussNum, Date bussDate) {
 		super();
+		this.name = name;
 		this.bussNum = bussNum;
 		this.bussDate = bussDate;
 	}
+	
 	
 	
 

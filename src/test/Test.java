@@ -9,7 +9,7 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 		System.out.println("hello git");
-		Account account = new Account("12345", new Date());
+		Account account = new Account("densen","12345", new Date());
 		System.out.println(account);
 	}
 
