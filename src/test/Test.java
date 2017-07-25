@@ -11,6 +11,7 @@ public class Test {
 		System.out.println("hello git");
 		Account account = new Account("densen","12345", new Date());
 		System.out.println(account);
+		System.out.println("--");
 	}
 
 }
